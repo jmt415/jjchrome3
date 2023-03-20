@@ -1,0 +1,12 @@
+{
+  "name": "My Chrome Extension",
+  "description": "This is a simple Chrome extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
